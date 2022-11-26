@@ -1,0 +1,200 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	scroll-behavior: smooth;
+}
+
+header {
+	background: #1A2238;
+	color: #eaeaea;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.logo {
+	margin-right: auto;
+	display: flex;
+	gap: 6px;
+}
+
+.logo-img {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+.logo-title {
+	cursor: pointer;
+	transition: all .5s ease 0s;
+    margin-top: 9px;
+}
+
+.logo:hover {
+	color: #00FFFF;
+    transform: skew(8deg);
+	transition:  all .5s ease 0s;
+}
+
+.btn-cta {
+	margin-right: 10px;
+	border: none;
+	font-size: 20px;
+	padding: 6px 12px;
+	background: #1E90FF;
+	color: #eaeaea;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+nav ul{
+	display: flex;
+	padding: 20px;
+}
+
+li {
+	list-style-type: none;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+li a {
+	transition: all .5s ease 0s;
+	display: inline-block;
+}
+
+li a:hover {
+	color: #7FFFD4;
+	transform: rotate(2deg);
+}
+
+a {
+	color: #eaeaea;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1200px;
+	min-height: 100vh;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	text-align: center;
+	background: linear-gradient(70deg, #7FFF00, #00FFFF);
+	margin: 0;
+	background-size: cover;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.description {
+	font-size: 40px;
+	font-family:Georgia;
+    margin: 0px 30px;
+}
+
+.img-foto {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	max-width: 500px;
+	margin-bottom: -10px;
+}
+
+.tentang {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #1A2238;
+	color: #eaeaea;
+	padding: 40px;
+}
+
+.formSaran form {
+	flex-wrap: wrap;
+	display: flex;
+	position: center;
+}
+
+.icon {
+	width: 75px;
+	height: 75px;
+	margin: 10px;
+	padding: 4px;
+}
+
+form {
+	text-align: center;
+	display: column;
+	gap: 15px;
+	background: linear-gradient(40deg, #87CEEB, #2E8B57);
+}
+
+.kotakan {
+	border-radius: 20px;
+	box-shadow: #7FFF00;
+}
+
+#submit {
+	border-radius: 10px;
+	font-family: Georgia;
+	color: #1A2238;
+	font-size: 15px;
+	width: 70px;
+}
+
+footer {
+	padding: 20px;
+	text-align: flex;
+	background: #1A2238;
+	color: #eaeaea;
+}
+
+#LogodanNama {
+	display:column;
+}
+
+#gambarBawah {
+	margin-right: auto;
+	display: flex;
+	gap: 6px;
+}
+
+#gambarBawah {
+	width: 50px;
+	height: 50px;
+	margin-left: -5px;
+}
+
+.bawah ul{
+	justify-content: space-between;
+	margin-top: -100px;
+	text-align: right;
+}
+
+.bawah ul li {
+	cursor: pointer;
+}
+
+.buttonKerjasama {
+	text-align: center;
+}

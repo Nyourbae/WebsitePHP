@@ -1,0 +1,36 @@
+@media screen and (max-width: 500px) {
+	.card {
+		flex-direction: flex;
+		gap: 0;
+	}
+	.card-item {
+		width: 100%;
+		opacity: 0.9;
+	}
+	
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+	
+	.intro {
+		margin-top: 20px;
+	}
+	
+	.img-foto {
+		padding: 0;
+	}
+	
+	nav {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background: #1A2238;
+		z-index: 9;
+	}
+	
+	footer {
+		margin-bottom: 70px;
+		margin-top: 70px;
+	}
+}
